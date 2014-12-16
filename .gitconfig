@@ -1,6 +1,6 @@
 [user]
-  name = Jon Sadka
-  email = xx@xxx.com
+	name = Jon Sadka
+	email = jon@lever.co
 
 [color]
   ui = auto
@@ -20,4 +20,14 @@
   untracked = red
 
 [alias]
+
+  # Show verbose output about tags, branches or remotes
+  tags = tag -l
+  branches = branch -a
+  remotes = remote -v
+
+  # View abbreviated SHA, description, and history graph of the commits
   hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+
+  # List contributors with number of commits
+  contributors = shortlog --summary --numbered
