@@ -1,0 +1,33 @@
+{
+  "auto_complete_triggers":
+  [
+    {
+      "characters": ".@",
+      "selector": "source.coffee, source.litcoffee, source.coffee.md"
+    }
+  ],
+  "bold_folder_labels": true,
+  "caret_extra_width": 1,
+  "caret_style": "phase",
+  "color_scheme": "Packages/Theme - Spacegray/base16-eighties.dark.tmTheme",
+  "enable_tab_scrolling": false,
+  "ensure_newline_at_eof_on_save": true,
+  "find_selected_text": true,
+  "font_face": "source code pro light",
+  "font_size": 15,
+  "highlight_line": true,
+  "highlight_modified_tabs": true,
+  "ignored_packages":
+  [
+    "Vintage"
+  ],
+  "scroll_past_end": true,
+  "show_full_path": true,
+  "sidebar_xsmall": true,
+  "tab_size": 2,
+  "tabs_small": true,
+  "theme": "Spacegray Eighties.sublime-theme",
+  "translate_tabs_to_spaces": true,
+  "trim_trailing_white_space_on_save": true,
+  "word_wrap": false
+}
