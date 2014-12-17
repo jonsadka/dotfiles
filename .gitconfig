@@ -1,6 +1,6 @@
 [user]
-	name = Jon Sadka
-	email = jon@lever.co
+  name = Jon Sadka
+  email = jon@lever.co
 
 [color]
   ui = auto
@@ -9,8 +9,8 @@
   local = green
   remote = cyan
 [color "diff"]
-  meta = magenta
-  frag = magenta
+  meta = white
+  frag = cyan
   old = red
   new = green
   whitespace = red reverse
