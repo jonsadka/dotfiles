@@ -21,6 +21,11 @@
 
 [alias]
 
+  # Shorthands for common commands
+  co = checkout
+  ci = commit
+  br = branch
+  
   # Show verbose output about tags, branches or remotes
   tags = tag -l
   branches = branch -a
