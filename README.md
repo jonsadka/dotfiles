@@ -2,8 +2,10 @@ dotfiles
 ========
 
 ## Terminal
-Install brew
-```ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"```
+Install brew:`ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+
+Install Git and bash-completion: `brew install git bash-completion`
+
 Add `.bash_profile` and `.gitconfig` to root directory (`~/`)
 
 ## Sublime Text 3
