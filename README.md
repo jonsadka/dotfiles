@@ -1,7 +1,10 @@
 dotfiles
 ========
 
-bash setup on a new computer
+## Terminal
+Install brew
+```ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"```
+Add `.bash_profile` and `.gitconfig` to root directory (`~/`)
 
 ## Sublime Text 3
 
