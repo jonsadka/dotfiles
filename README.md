@@ -27,4 +27,5 @@ Source Code Pro (Font)
 Better Coffeescript
 Bracket Highlighter
 CoffeeCompile
+GitGutter
 ```
