@@ -1,4 +1,9 @@
-source ~/lever/scripts/bash/.lever-profile
+source ~/lever/scripts/bash/lever-profile
+
+# Bash aliases
+if [ -f ~/.bash_aliases ]; then
+    . ~/.bash_aliases
+fi
 
 # Bash Auto Complete
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
