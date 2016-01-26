@@ -8,6 +8,8 @@ Install Git and bash-completion: `brew install git bash-completion`
 
 Add `.bash_profile` and `.gitconfig` to root directory (`~/`)
 
+`npm set progress=false` to disable npm progress bar and speed up install
+
 ## Sublime Text 3
 
 ### command line tool (subl)
