@@ -1,5 +1,8 @@
 source ~/lever/scripts/bash/lever-profile
 
+# Number of commands to store in history
+HISTFILESIZE=2500
+
 # Bash aliases
 if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
