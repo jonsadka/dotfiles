@@ -31,3 +31,6 @@ Bracket Highlighter
 CoffeeCompile
 GitGutter
 ```
+
+### Set sublime as default editor for git
+`git config --global core.editor "subl -n -w"`
