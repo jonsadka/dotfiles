@@ -28,8 +28,11 @@ Spacegray (Theme)
 Source Code Pro (Font)
 Better Coffeescript
 Bracket Highlighter
-CoffeeCompile
 GitGutter
+
+Babel (for React)
+
+CoffeeCompile (for coffeescript)
 ```
 
 ### Set sublime as default editor for git
