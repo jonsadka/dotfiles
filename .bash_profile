@@ -1,4 +1,5 @@
-source ~/lever/scripts/bash/lever-profile
+# Make use of the updated npm prefix directory
+export PATH="$PATH:$HOME/.npm/bin"
 
 # Number of commands to store in history
 HISTFILESIZE=2500
@@ -20,5 +21,5 @@ parse_git_branch() {
 }
 export PS1="\u@\h \W\[\033[36m\]\$(parse_git_branch)\[\033[00m\] $ "
 
-# Increase default process limits
-ulimit -n 1024
+# Increase default process limits (Make sure there are enough file descriptors)
+ulimit -n 4096 # large-ish number allowed without sudo
