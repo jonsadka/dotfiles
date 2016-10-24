@@ -26,13 +26,13 @@ packages:
 ```
 Spacegray (Theme)
 Source Code Pro (Font)
-Better Coffeescript
 Bracket Highlighter
 GitGutter
 
 Babel (for React)
 
 CoffeeCompile (for coffeescript)
+Better Coffeescript (for coffeescript)
 ```
 
 ### Set sublime as default editor for git
