@@ -1,6 +1,6 @@
 [user]
   name = Jon Sadka
-  email = jon@lever.co
+  email = ???
 
 [color]
   ui = auto
@@ -20,11 +20,6 @@
   untracked = red
 
 [alias]
-
-  # Shorthands for common commands
-  co = checkout
-  ci = commit
-  br = branch
   
   # Show verbose output about tags, branches or remotes
   tags = tag -l
