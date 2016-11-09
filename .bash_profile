@@ -15,7 +15,8 @@ if [ -f $(brew --prefix)/etc/bash_completion ]; then
 fi
 source $(brew --prefix)/etc/bash_completion.d/git-prompt.sh
 
-# Git branch in prompt.
+# Add git branch name to terminal prompt
+# http://mfitzp.io/article/add-git-branch-name-to-terminal-prompt-mac/
 parse_git_branch() {
   git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
 }
