@@ -10,6 +10,21 @@ Add `.bash_profile` and `.gitconfig` to root directory (`~/`)
 
 `npm set progress=false` to disable npm progress bar and speed up install
 
+## Visual Studio Code
+Extensions:
+```
+beautify
+Brack Pair Colorizer
+colorize
+Debugger for Chrome
+ESLint
+Guides
+Path Intellisense
+Spacegray VSCode
+Sublime Text Keymap
+vscode-icons
+```
+
 ## Sublime Text 3
 
 ### command line tool (subl)
