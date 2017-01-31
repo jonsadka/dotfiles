@@ -1,0 +1,33 @@
+// Visual Studio Code settings
+// Place your settings in this file to overwrite default and user settings.
+{
+  "editor.fontFamily": "source code pro, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 17,
+  "editor.fontWeight": "300",
+  "editor.lineHeight": 22,
+  "editor.renderIndentGuides": false,
+  "editor.renderWhitespace": "none",
+  "editor.tabSize": 2,
+  "editor.wordWrap": true,
+  "files.exclude": {
+    "**/dist-client": true,
+    "**/dist-server": true,
+    "**/dist-test": true,
+    "**/node_modules": true
+  },
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "guides.active.color.dark": "rgba(60, 60, 60, 0.75)",
+  "guides.normal.color.dark": "rgba(60, 60, 60, 0.35)",
+  "guides.normal.width": 2,
+  "guides.sendUsagesAndStats": false,
+  "guides.stack.hideOnSelection": false,
+  "search.exclude": {
+    "**/.git": true,
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/tmp": true
+  }
+  ,
+  "vsicons.presets.angular": false,
+}
