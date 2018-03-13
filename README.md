@@ -30,7 +30,7 @@ vscode-icons
 ### command line tool (subl)
 https://www.sublimetext.com/docs/3/osx_command_line.html
 ```
-ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
+$ ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
 ```
 
 ### packages
@@ -58,9 +58,9 @@ Better Coffeescript (for coffeescript)
 ### Zopfli
 See http://edupertuis.net/2016/01/12/playing-with-zopfli.html
 ```
-git clone https://github.com/google/zopfli.git
-cd zopfli
-make zopflipng
-sudo mv zopflipng /usr/bin/
+$ git clone https://github.com/google/zopfli.git
+$ cd zopfli
+$ make zopflipng
+$ sudo mv zopflipng /usr/bin/
 ```
 
