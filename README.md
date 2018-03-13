@@ -52,3 +52,15 @@ Better Coffeescript (for coffeescript)
 
 ### Set sublime as default editor for git
 `git config --global core.editor "subl -n -w"`
+
+## Compression utilities
+
+### Zopfli
+See http://edupertuis.net/2016/01/12/playing-with-zopfli.html
+```
+git clone https://github.com/google/zopfli.git
+cd zopfli
+make zopflipng
+sudo mv zopflipng /usr/bin/
+```
+
