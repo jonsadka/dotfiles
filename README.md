@@ -56,12 +56,21 @@ Better Coffeescript (for coffeescript)
 ## Compression utilities
 
 ### Zopfli
-See http://edupertuis.net/2016/01/12/playing-with-zopfli.html
+See https://github.com/google/zopfli
 ```
 $ git clone https://github.com/google/zopfli.git
 $ cd zopfli
 $ make zopflipng
 $ sudo mv zopflipng /usr/bin/
+```
+From http://edupertuis.net/2016/01/12/playing-with-zopfli.html
+```
+#!/bin/bash
+mkdir compressed
+for file in ./*.png
+do
+  zopflipng "${file}" compressed/$(basename "${file}")
+done
 ```
 
 ### pngquant
@@ -72,3 +81,7 @@ $ cd pngquant
 $ sudo make install
 ```
 * By default it will be installed in /usr/local/bin. To install it in another directory run ./configure --prefix=dir && make.
+From https://stackoverflow.com/questions/9647920/recursively-batch-process-files-with-pngquant
+```
+$find . -name '*.png' -print0 | xargs -0 -P8 -L1 pngquant --ext .png --force 256
+```
