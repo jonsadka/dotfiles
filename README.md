@@ -64,3 +64,11 @@ $ make zopflipng
 $ sudo mv zopflipng /usr/bin/
 ```
 
+### pngquant
+See https://pngquant.org/
+```
+$ git clone git://github.com/kornelski/pngquant.git
+$ cd pngquant
+$ sudo make install
+```
+* By default it will be installed in /usr/local/bin. To install it in another directory run ./configure --prefix=dir && make.
