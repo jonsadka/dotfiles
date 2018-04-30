@@ -7,6 +7,7 @@
   "editor.fontSize": 17,
   "editor.fontWeight": "300",
   "editor.lineHeight": 22,
+  "editor.minimap.enabled": false,
   "editor.renderIndentGuides": false,
   "editor.renderWhitespace": "none",
   "editor.tabSize": 2,
@@ -19,6 +20,8 @@
   },
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
+  "flow.runOnEdit": false,
+  "flow.useNPMPackagedFlow": true,
   "guides.active.color.dark": "rgba(60, 60, 60, 0.75)",
   "guides.normal.color.dark": "rgba(60, 60, 60, 0.35)",
   "guides.normal.width": 2,
@@ -26,10 +29,33 @@
   "guides.stack.hideOnSelection": false,
   "search.exclude": {
     "**/.git": true,
+    "**/coverage": true,
+    "**/dist-client": true,
+    "**/dist-server": true,
+    "**/dist-test": true,
+    "**/flow-output": true,
+    "**/flow-typed": true,
     "**/node_modules": true,
     "**/bower_components": true,
     "**/tmp": true
-  }
-  ,
-  "vsicons.presets.angular": false,
+  },
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.snippetSuggestions": "top",
+  "editor.formatOnPaste": true,
+  "relativePath.ignore": [
+    "**/.git/**",
+    "**/coverage/**",
+    "**/dist-client/**",
+    "**/dist-server/**",
+    "**/dist-test/**",
+    "**/flow-output/**",
+    "**/flow-typed/**",
+    "**/node_modules/**",
+    "**/bower_components/**",
+    "**/tmp/**"
+  ],
+  "window.title": "${activeEditorLong}${separator}${rootName}",
+  "window.zoomLevel": -1,
+  "workbench.editor.showIcons": false,
+  "workbench.colorTheme": "One Dark Pro"
 }
