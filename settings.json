@@ -1,8 +1,6 @@
 // Visual Studio Code Settings
 // Place your settings in this file to overwrite default and user settings.
 {
-  "annotator.annotationColumnWidth": "18em",
-  "annotator.annotationCommitColorBarWidth": "0.5em",
   "editor.fontFamily": "source code pro, Menlo, Monaco, 'Courier New', monospace",
   "editor.fontSize": 17,
   "editor.fontWeight": "300",
