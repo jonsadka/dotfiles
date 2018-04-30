@@ -19,10 +19,9 @@ colorize
 Debugger for Chrome
 ESLint
 Guides
-Path Intellisense
+One Dark Pro
+Relative Path
 Spacegray VSCode
-Sublime Text Keymap
-vscode-icons
 ```
 
 ## Sublime Text 3
