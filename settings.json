@@ -55,5 +55,6 @@
   "window.title": "${activeEditorLong}${separator}${rootName}",
   "window.zoomLevel": -1,
   "workbench.editor.showIcons": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false,  
   "workbench.colorTheme": "One Dark Pro"
 }
