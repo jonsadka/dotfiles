@@ -25,6 +25,7 @@
   "guides.normal.width": 2,
   "guides.sendUsagesAndStats": false,
   "guides.stack.hideOnSelection": false,
+  "markdown.extension.preview.autoShowPreviewToSide": true,
   "search.exclude": {
     "**/.git": true,
     "**/coverage": true,
