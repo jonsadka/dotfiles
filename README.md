@@ -60,7 +60,7 @@ See https://github.com/google/zopfli
 $ git clone https://github.com/google/zopfli.git
 $ cd zopfli
 $ make zopflipng
-$ sudo mv zopflipng /usr/bin/
+$ sudo mv zopflipng /usr/local/bin/
 ```
 
 Running (http://edupertuis.net/2016/01/12/playing-with-zopfli.html)
