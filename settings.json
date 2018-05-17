@@ -3,13 +3,14 @@
 {
   "editor.fontFamily": "source code pro, Menlo, Monaco, 'Courier New', monospace",
   "editor.fontSize": 17,
+  "editor.formatOnPaste": true,
   "editor.fontWeight": "300",
   "editor.lineHeight": 22,
   "editor.minimap.enabled": false,
-  "editor.renderIndentGuides": false,
+  "editor.renderIndentGuides": true,
   "editor.renderWhitespace": "none",
+  "editor.snippetSuggestions": "top",
   "editor.tabSize": 2,
-  "editor.wordWrap": true,
   "files.exclude": {
     "**/dist-client": true,
     "**/dist-server": true,
@@ -20,12 +21,6 @@
   "files.trimTrailingWhitespace": true,
   "flow.runOnEdit": false,
   "flow.useNPMPackagedFlow": true,
-  "guides.active.color.dark": "rgba(60, 60, 60, 0.75)",
-  "guides.normal.color.dark": "rgba(60, 60, 60, 0.35)",
-  "guides.normal.width": 2,
-  "guides.sendUsagesAndStats": false,
-  "guides.stack.hideOnSelection": false,
-  "markdown.extension.preview.autoShowPreviewToSide": true,
   "search.exclude": {
     "**/.git": true,
     "**/coverage": true,
@@ -38,9 +33,7 @@
     "**/bower_components": true,
     "**/tmp": true
   },
-  "editor.multiCursorModifier": "ctrlCmd",
-  "editor.snippetSuggestions": "top",
-  "editor.formatOnPaste": true,
+  "markdown.extension.preview.autoShowPreviewToSide": true,
   "relativePath.ignore": [
     "**/.git/**",
     "**/coverage/**",
@@ -54,8 +47,8 @@
     "**/tmp/**"
   ],
   "window.title": "${activeEditorLong}${separator}${rootName}",
-  "window.zoomLevel": -1,
+  "window.zoomLevel": 0,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
   "workbench.editor.showIcons": false,
-  "workbench.editor.enablePreviewFromQuickOpen": false,  
   "workbench.colorTheme": "One Dark Pro"
 }
