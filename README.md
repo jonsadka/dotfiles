@@ -13,15 +13,18 @@ Add `.bash_profile` and `.gitconfig` to root directory (`~/`)
 ## Visual Studio Code
 Extensions:
 ```
-beautify
-Brack Pair Colorizer
+beautify (not really using)
+Brack Pair Colorizer (not really using)
 colorize
-Debugger for Chrome
+Debugger for Chrome (not really using)
 ESLint
-Guides
+Flow Language Support
+Gitlens
+Markdown All in One
 One Dark Pro
+Prettier (not really using)
 Relative Path
-Spacegray VSCode
+Spacegray VSCode (not really using)
 ```
 
 ## Sublime Text 3
