@@ -21,13 +21,16 @@
   "files.trimTrailingWhitespace": true,
   "flow.runOnEdit": false,
   "flow.useNPMPackagedFlow": true,
+  "gitlens.advanced.messages": {
+    "suppressShowKeyBindingsNotice": true
+  },
   "gitlens.blame.heatmap.enabled": true,
   "gitlens.blame.highlight.locations": ["line"],
   "gitlens.blame.ignoreWhitespace": true,
-  "gitlens.codeLens.authors.command":"gitlens.diffWithPrevious",
-  "gitlens.codeLens.authors.enabled": true,
+  "gitlens.codeLens.enabled": false,
   "gitlens.currentLine.format": "${authorAgoOrDate}, ${message|40?}",
   "gitlens.defaultGravatarsStyle": "retro",
+  "gitlens.historyExplorer.enabled": true,
   "gitlens.statusBar.alignment": "left",
   "gitlens.statusBar.reduceFlicker": true,
   "markdown.extension.preview.autoShowPreviewToSide": true,
@@ -56,7 +59,7 @@
     "**/tmp": true
   },
   "window.title": "${activeEditorLong}${separator}${rootName}",
-  "window.zoomLevel": -2,
+  "window.zoomLevel": 0,
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "workbench.editor.showIcons": false,
   "workbench.colorTheme": "One Dark Pro"
