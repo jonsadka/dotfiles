@@ -1,6 +1,18 @@
 // Visual Studio Code Settings
 // Place your settings in this file to overwrite default and user settings.
 {
+  "colorize.languages": [
+    "css",
+    "javascript",
+    "less",
+    "pcss",
+    "sass",
+    "scss",
+    "sss",
+    "stylus",
+    "svg",
+    "xml"
+  ],
   "editor.fontFamily": "source code pro, Menlo, Monaco, 'Courier New', monospace",
   "editor.fontSize": 17,
   "editor.formatOnPaste": true,
@@ -25,7 +37,9 @@
     "suppressShowKeyBindingsNotice": true
   },
   "gitlens.blame.heatmap.enabled": true,
-  "gitlens.blame.highlight.locations": ["line"],
+  "gitlens.blame.highlight.locations": [
+    "line"
+  ],
   "gitlens.blame.ignoreWhitespace": true,
   "gitlens.codeLens.enabled": false,
   "gitlens.currentLine.format": "${authorAgoOrDate}, ${message|40?}",
