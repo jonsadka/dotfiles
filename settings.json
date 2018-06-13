@@ -45,6 +45,7 @@
   "gitlens.historyExplorer.enabled": true,
   "gitlens.statusBar.alignment": "left",
   "gitlens.statusBar.reduceFlicker": true,
+  "javascript.validate.enable": false,
   "markdown.extension.preview.autoShowPreviewToSide": true,
   "relativePath.ignore": [
     "**/.git/**",
@@ -70,8 +71,6 @@
     "**/bower_components": true,
     "**/tmp": true
   },
-  "typescript.format.enable": false,
-  "typescript.validate.enable": false,
   "window.title": "${activeEditorLong}${separator}${rootName}",
   "window.zoomLevel": 0,
   "workbench.editor.enablePreviewFromQuickOpen": false,
