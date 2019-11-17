@@ -4,56 +4,10 @@ dotfiles
 ## Terminal
 Install brew:`ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
-Install Git and bash-completion: `brew install git bash-completion`
-
-Add `.bash_profile` and `.gitconfig` to root directory (`~/`)
+Add `.zshrc` and `.gitconfig` to root directory (`~/`)
+<!-- NOTE: you can add .bash_profile as well but OSX now uses zsh -->
 
 `npm set progress=false` to disable npm progress bar and speed up install
-
-## Visual Studio Code
-Extensions:
-```
-beautify (not really using)
-Brack Pair Colorizer (not really using)
-colorize
-Debugger for Chrome (not really using)
-ESLint
-Flow Language Support
-Gitlens
-Markdown All in One
-One Dark Pro
-Prettier (not really using)
-Relative Path
-Spacegray VSCode (not really using)
-```
-
-## Sublime Text 3
-
-### command line tool (subl)
-https://www.sublimetext.com/docs/3/osx_command_line.html
-```
-$ ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
-```
-
-### packages
-install package control:
-https://sublime.wbond.net/installation
-
-packages:
-```
-Spacegray (Theme)
-Source Code Pro (Font)
-Bracket Highlighter
-GitGutter
-
-Babel (for React)
-
-CoffeeCompile (for coffeescript)
-Better Coffeescript (for coffeescript)
-```
-
-### Set sublime as default editor for git
-`git config --global core.editor "subl -n -w"`
 
 ## Compression utilities
 
@@ -89,3 +43,47 @@ do
   zopflipng "${file}" compressed/$(basename "${file}")
 done
 ```
+
+
+## Visual Studio Code
+Extensions:
+```
+Better Comments
+colorize
+ESLint
+Gitlens
+Markdown All in One
+One Dark Pro
+Prettier (not really using)
+Relative Path
+Sort lines
+Spacegray VSCode (not really using)
+```
+
+## Sublime Text 3 (Don't really use anymore)
+
+### command line tool (subl)
+https://www.sublimetext.com/docs/3/osx_command_line.html
+```
+$ ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
+```
+
+### packages
+install package control:
+https://sublime.wbond.net/installation
+
+packages:
+```
+Spacegray (Theme)
+Source Code Pro (Font)
+Bracket Highlighter
+GitGutter
+
+Babel (for React)
+
+CoffeeCompile (for coffeescript)
+Better Coffeescript (for coffeescript)
+```
+
+### Set sublime as default editor for git
+`git config --global core.editor "subl -n -w"`
